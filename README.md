@@ -88,8 +88,7 @@ void loop() {
 <img width="546" height="386" alt="image" src="https://github.com/user-attachments/assets/bd237ca4-afca-42e4-8254-5c1211d4cadb" />
 
 ## LED ON
-<img width="548" height="386" alt="image" src="https://github.com/user-attachments/assets/1c27bd06-ccc1-4d45-8d21-a2d07a7a49de" />
-
+<img width="942" height="566" alt="image" src="https://github.com/user-attachments/assets/9329a7cb-93e6-4181-bdc7-823ddb33c9f2" />
 
 ## RESULT
 
