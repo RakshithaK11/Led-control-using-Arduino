@@ -83,8 +83,10 @@ void loop() {
 }
 ~~~
 ## OUTPUT
+
 ## LED OFF
 <img width="546" height="386" alt="image" src="https://github.com/user-attachments/assets/bd237ca4-afca-42e4-8254-5c1211d4cadb" />
+
 ## LED ON
 <img width="548" height="386" alt="image" src="https://github.com/user-attachments/assets/1c27bd06-ccc1-4d45-8d21-a2d07a7a49de" />
 
