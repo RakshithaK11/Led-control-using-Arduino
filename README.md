@@ -1,3 +1,6 @@
+## NAME: RAKSHITHA K
+## REGISTER NUMBER:212223110039
+
 # Led-control-using-Arduino
 
 ## AIM
@@ -58,9 +61,34 @@ Emergency Signaling System </br>
 Weighing Machines </br>
 
 ## CIRCUIT DIAGRAM
+<img width="612" height="424" alt="image" src="https://github.com/user-attachments/assets/eff2c017-7a6e-4be4-a16e-57c22dd4ae1a" />
 
 ## PROGRAM
+~~~
+void setup() {
+  pinMode(11,OUTPUT);
+  pinMode(4,INPUT);
+}
 
+void loop() {
+  int button_status=digitalRead(4);
+  if (button_status==HIGH){
+    digitalWrite(11,HIGH);
+    delay(1000);
+    digitalWrite(11,LOW);
+    delay(1000);
+  }
+  else
+    digitalWrite(11,LOW);
+}
+~~~
 ## OUTPUT
+## LED OFF
+<img width="546" height="386" alt="image" src="https://github.com/user-attachments/assets/bd237ca4-afca-42e4-8254-5c1211d4cadb" />
+## LED ON
+<img width="548" height="386" alt="image" src="https://github.com/user-attachments/assets/1c27bd06-ccc1-4d45-8d21-a2d07a7a49de" />
+
 
 ## RESULT
+
+The project designed and implemented a system for LED control using an Arduino microcontroller and a push button successfully.
