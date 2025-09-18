@@ -1,7 +1,7 @@
-## NAME: RAKSHITHA K
-## REGISTER NUMBER:212223110039
+# Exp 1: Led control using Arduino
 
-# Led-control-using-Arduino
+## NAME: RAKSHITHA K
+## REG NO: 212223110039
 
 ## AIM
 To design and implement a system for LED control using an Arduino microcontroller and a push button.
@@ -61,35 +61,44 @@ Emergency Signaling System </br>
 Weighing Machines </br>
 
 ## CIRCUIT DIAGRAM
-<img width="612" height="424" alt="image" src="https://github.com/user-attachments/assets/eff2c017-7a6e-4be4-a16e-57c22dd4ae1a" />
+
+<img width="702" height="731" alt="image" src="https://github.com/user-attachments/assets/8af80afa-e85a-470e-ba8b-f54ed77ff477" />
+
+
 
 ## PROGRAM
-~~~
+```
 void setup() {
-  pinMode(11,OUTPUT);
-  pinMode(4,INPUT);
+  // put your setup code here, to run once:
+  pinMode(6,OUTPUT);
+  pinMode(2,INPUT);
 }
 
 void loop() {
-  int button_status=digitalRead(4);
-  if (button_status==HIGH){
-    digitalWrite(11,HIGH);
+  int status=digitalRead(2);
+  if(status==HIGH)
+  {
+    digitalWrite(6,HIGH);
     delay(1000);
-    digitalWrite(11,LOW);
+    digitalWrite(6,LOW);
     delay(1000);
   }
   else
-    digitalWrite(11,LOW);
+  digitalWrite(6,LOW);
 }
-~~~
+```
+
+
+
 ## OUTPUT
+## Switch on
+<img width="707" height="752" alt="Screenshot 2025-08-21 085746" src="https://github.com/user-attachments/assets/d955cfcd-0a8d-42f7-8bbb-8e8233b7f2af" />
 
-## LED OFF
-<img width="546" height="386" alt="image" src="https://github.com/user-attachments/assets/bd237ca4-afca-42e4-8254-5c1211d4cadb" />
 
-## LED ON
-<img width="942" height="566" alt="image" src="https://github.com/user-attachments/assets/9329a7cb-93e6-4181-bdc7-823ddb33c9f2" />
+## Switch off
+ <img width="704" height="744" alt="Screenshot 2025-08-21 085809" src="https://github.com/user-attachments/assets/aa8938ec-fbe7-4b47-ae3d-cf8296df2154" />
+
+
 
 ## RESULT
-
-The project designed and implemented a system for LED control using an Arduino microcontroller and a push button successfully.
+Designed and implemented a system for LED control using an arduino microcontroller and a push button successfully.
